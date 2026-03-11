@@ -1129,6 +1129,7 @@ class HolidaysPage(ft.Column):
             value=str(self._month),
             bgcolor=INPUT_BG, color=TEXT_PRI,
             border_radius=12,
+            expand=True,
         )
         self.year_field = ft.TextField(
             value=str(self._year),
